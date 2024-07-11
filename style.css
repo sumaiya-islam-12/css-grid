@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    margin: 0 auto;
+    max-width:96%;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.box{
+    border: 5px solid blue;
+    border-radius: 20px;
+    margin: 10px;
+}
+.box img{
+    height: 675px;
+    width:1200px ;
+}
+.box h1{
+    text-align: center;
+}
+@media screen  and (max-width:1024){
+    .card{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+}
+
+@media screen  and (max-width:912){
+    .card{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+@media screen  and (max-width:600){
+    .card{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
