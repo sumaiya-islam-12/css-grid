@@ -28,21 +28,21 @@ body{
 .box h1{
     text-align: center;
 }
-@media screen  and (max-width:1024){
+@media screen  and (max-width:1024px){
     .card{
         grid-template-columns: repeat(4,1fr);
     }
 
 }
 
-@media screen  and (max-width:912){
+@media screen  and (max-width:912px){
     .card{
         grid-template-columns: repeat(3,1fr);
     }
 
 }
 
-@media screen  and (max-width:600){
+@media screen  and (max-width:600px){
     .card{
         grid-template-columns: repeat(1,1fr);
     }
